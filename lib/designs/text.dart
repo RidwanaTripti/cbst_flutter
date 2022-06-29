@@ -9,6 +9,7 @@ class FontPageText extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 280.0, left: 100),
       child: Column(
+        //CrossAxisAlignment.stretch=Stretches children across the cross axis. (Top-to-bottom for Row, left-to-right for Column)
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(

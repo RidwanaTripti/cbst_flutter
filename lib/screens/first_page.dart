@@ -8,27 +8,22 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
+
     return Scaffold(
-      body:
-          //hoy na overflow er dekhay
-          SingleChildScrollView(
-        child: Column(
-          children: [
-            Container(
-              height: size.height,
-              width: size.width,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage("01.jpg"), fit: BoxFit.cover),
-              ),
-              child: Column(
-                children: [
-                  CustomAppBar(),
-                  FontPageText(),
-                ],
-              ),
-            ),
-          ],
+      body: Container(
+        height: size.height,
+        width: size.width,
+        decoration: BoxDecoration(
+          image:
+              DecorationImage(image: AssetImage("01.jpg"), fit: BoxFit.cover),
+        ),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              CustomAppBar(),
+              FontPageText(),
+            ],
+          ),
         ),
       ),
     );

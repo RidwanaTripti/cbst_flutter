@@ -1,16 +1,16 @@
-# cbst_project
+# CBST Website  project
 
-A new Flutter project.
+This is my first website on flutter. It's for my institute. I try to make it simple. 
 
-## Getting Started
+In future I will deploy this on webserver like "NGNX" or "Apache".
 
-This project is a starting point for a Flutter application.
+## Features 
+- Single code base
+- Flutter project
+- Web 
+- Android 
+- Windows
 
-A few resources to get you started if this is your first Flutter project:
+If you want to see the [demo](http://maxsop.com), please click here.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thankyou.
